@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SABORES DE BARRIO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chela+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="wrapper">
+        
+
+        <div id="vista-inicio" class="vista">
+            <header class="cabecera">
+                <div id="logo">
+                    <a href="#vista-inicio"><img src="./imagenes/imagenlogo.png" alt="Logo Sabores de Barrio"></a>
+                </div>
+                <h1>SABORES DE BARRIO</h1>
+            </header>
+
+            <nav class="links">
+                <a href="#vista-inicio">INICIO</a>
+                <a href="#vista-menu">MENÚ</a>
+                <a href="#modal-ubicacion" class="btn-abrir-modal">UBICACIÓN</a>
+            </nav>
+
+            <main class="contenido">
+                <section id="informacion">
+                    <section id="principal">
+                        <div class="manija izquierda"></div>
+                        <div class="contenido-tarjeta-principal">
+                            <div class="contenedor-imagen">
+                                <img id="imagen-hamburguesa" src="./imagenes/hamburguesa.png" alt="Hamburguesa Triple Selección">
+                            </div>
+                            <div id="informacion-hamburguesa-principal">
+                                <h2>HAMBURGUESA TRIPLE SELECCIÓN</h2>
+                                <p>Tres medallones de carne 100% vacuna artesanal, triple queso cheddar fundido, panceta ahumada crujiente, cebolla caramelizada y salsa especial de la casa.</p>
+                                <a href="#vista-pedido" class="btn-pedir">PEDIR YA</a>
+                            </div>
+                        </div>
+                        <div class="manija derecha"></div>
+                    </section>
+
+                    <aside id="secundario">
+                        <div class="tarjeta-combo">
+                            <div class="pan-decorativo arriba"></div>
+                            <div class="contenido-combo">
+                                <h3>COMBO EJECUTIVO</h3>
+                                <p>Hamburguesa clásica, papas fritas y bebida a elección.</p>
+                                <a href="#vista-menu" class="ver-combo">ver combo</a>
+                            </div>
+                            <div class="pan-decorativo abajo"></div>
+                        </div>
+
+                        <div class="tarjeta-combo">
+                            <div class="pan-decorativo arriba"></div>
+                            <div class="contenido-combo">
+                                <h3>MENU VEGANO/TACC</h3>
+                                <p>Medallón vegetal, queso vegano y pan sin TACC con papas.</p>
+                                <a href="#vista-menu" class="ver-combo">ver combo</a>
+                            </div>
+                            <div class="pan-decorativo abajo"></div>
+                        </div>
+                    </aside>
+                </section>
+            </main>
+        </div>
+
+
+        <div id="vista-menu" class="vista">
+            <header class="cabecera">
+                <div id="logo">
+                    <a href="#vista-inicio"><img src="./imagenes/imagenlogo.png" alt="Logo Sabores de Barrio"></a>
+                </div>
+                <h1>SABORES DE BARRIO</h1>
+            </header>
+
+            <nav class="links">
+                <a href="#vista-inicio">INICIO</a>
+                <a href="#vista-menu">MENÚ</a>
+                <a href="#modal-ubicacion" class="btn-abrir-modal">UBICACIÓN</a>
+            </nav>
+
+            <main class="contenido-menu">
+                <div class="seccion-menu-contenedor">
+                    <div class="columna-hamburguesas">
+                        <h2 class="titulo-seccion">HAMBURGUESAS</h2>
+                        
+                        <div class="item-menu-tarjeta">
+                            <div class="info-item">
+                                <span class="nombre-plato">Clásica</span>
+                                <span class="precio-plato">$4.500</span>
+                            </div>
+                            <p class="desc-plato">carne de 120g, lechuga, tomate, cebolla, queso cheddar y salsa de la casa.</p>
+                            <a href="#vista-pedido" class="btn-pedir-item">pedir ya</a>
+                        </div>
+
+                        <div class="item-menu-tarjeta">
+                            <div class="info-item">
+                                <span class="nombre-plato">Doble Queso</span>
+                                <span class="precio-plato">$6.500</span>
+                            </div>
+                            <p class="desc-plato">doble carne, dobre cheddar, lechuga, tomate, cebolla y mayonesa casera.</p>
+                            <a href="#vista-pedido" class="btn-pedir-item">pedir ya</a>
+                        </div>
+
+                        <div class="item-menu-tarjeta">
+                            <div class="info-item">
+                                <span class="nombre-plato">BACON</span>
+                                <span class="precio-plato">$5.500</span>
+                            </div>
+                            <p class="desc-plato">doble carne, dobre cheddar, lechuga, tomate, cebolla y mayonesa casera.</p>
+                            <a href="#vista-pedido" class="btn-pedir-item">pedir ya</a>
+                        </div>
+                    </div>
+
+                    <div class="columna-centro-menu">
+                        <div class="item-menu-tarjeta">
+                            <div class="info-item">
+                                <span class="nombre-plato">Completa</span>
+                                <span class="precio-plato">$6.000</span>
+                            </div>
+                            <p class="desc-plato">Carne de 120 g, huevo, cheddar, panceta, lechuga, tomate, cebolla y salsa de la casa.</p>
+                            <a href="#vista-pedido" class="btn-pedir-item">pedir ya</a>
+                        </div>
+
+                        <div class="item-menu-tarjeta">
+                            <div class="info-item">
+                                <span class="nombre-plato">ESPECIAL DEL BARRIO</span>
+                                <span class="precio-plato">$7.000</span>
+                            </div>
+                            <p class="desc-plato">Doble carne, cheddar, panceta, huevo, lechuga, tomate, cebolla y salsa criolla.</p>
+                            <a href="#vista-pedido" class="btn-pedir-item">pedir ya</a>
+                        </div>
+
+                        <div class="item-menu-tarjeta">
+                            <div class="info-item">
+                                <span class="nombre-plato">VEGETARIANA</span>
+                                <span class="precio-plato">$4.500</span>
+                            </div>
+                            <p class="desc-plato">Medallón de lentejas, lechuga, tomate, cebolla, queso vegano y mayonesa saborizada.</p>
+                            <a href="#vista-pedido" class="btn-pedir-item">pedir ya</a>
+                        </div>
+                    </div>
+
+                    <div class="columna-bebidas">
+                        <h2 class="titulo-seccion">BEBIDAS/EXTRAS</h2>
+                        <div class="tarjeta-bebidas-extras">
+                            <div class="fila-bebida"><span>Gaseosa</span> <span>$2.300</span></div>
+                            <div class="fila-bebida"><span>Cerveza</span> <span>$3.500</span></div>
+                            <div class="fila-bebida"><span>Agua</span> <span>$1.000</span></div>
+                        </div>
+                        <div class="tarjeta-bebidas-extras" style="margin-top: 20px;">
+                            <div class="fila-bebida"><span>Cheddar</span> <span>$500</span></div>
+                            <div class="fila-bebida"><span>Panceta</span> <span>$800</span></div>
+                            <div class="fila-bebida"><span>Huevo</span> <span>$300</span></div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+
+        <div id="vista-pedido" class="vista">
+            <div class="cabecera-simple">
+                <div style="display: flex; align-items: center; gap: 15px;">
+                    <a href="#vista-inicio" class="btn-volver">&#127968; Volver al inicio</a>
+                </div>
+                <h2 class="titulo-pantalla">TU PEDIDO</h2>
+                <div class="logo-chico"><a href="#vista-inicio"><img src="./imagenes/imagenlogo.png" alt="Logo"></a></div>
+            </div>
+            <main class="cuerpo-pedido">
+                <div class="tabla-pedido-box">
+                    <div class="encabezado-tabla-pedido">
+                        <span>PRODUCTO</span>
+                        <span>CANT.</span>
+                        <span>PRECIO</span>
+                        <span>SUBTOTAL</span>
+                    </div>
+                    <div class="item-fila-pedido">
+                        <span>Clásica</span>
+                        <span class="control-cant"><button>-</button> 1 <button>+</button></span>
+                        <span>$4.500</span>
+                        <span>$4.500</span>
+                    </div>
+                    <div class="item-fila-pedido">
+                        <span>Doble Queso</span>
+                        <span class="control-cant"><button>-</button> 2 <button>+</button></span>
+                        <span>$6.500</span>
+                        <span>$13.000</span>
+                    </div>
+                    <div class="item-fila-pedido">
+                        <span>Especial del Barrio</span>
+                        <span class="control-cant"><button>-</button> 1 <button>+</button></span>
+                        <span>$7.000</span>
+                        <span>$7.000</span>
+                    </div>
+                    <div class="item-fila-pedido">
+                        <span>Gaseosa</span>
+                        <span class="control-cant"><button>-</button> 2 <button>+</button></span>
+                        <span>$2.300</span>
+                        <span>$4.600</span>
+                    </div>
+                    <div class="extra-fila">+ Extra cheddar (x2) <span>$1.000</span></div>
+                    
+                    <div class="totales-resumen">
+                        <div><span>Subtotal</span> <span>$30.100</span></div>
+                        <div><span>Envío</span> <span>A calcular</span></div>
+                    </div>
+                    <div class="total-final-box">
+                        <span>TOTAL</span>
+                        <span>$30.100</span>
+                    </div>
+                    <a href="#vista-datos" class="btn-confirmar-largo">CONFIRMAR PEDIDO</a>
+                </div>
+
+                <div class="opciones-lateral-pedido">
+                    <div class="bloque-notas">
+                        <h3>NOTAS DEL PEDIDO</h3>
+                        <textarea placeholder="Ej: sin cebolla, pan especial, punto de cocción..."></textarea>
+                    </div>
+                    <div class="bloque-pago-entrega">
+                        <h3>FORMA DE PAGO</h3>
+                        <div class="botones-opcion">
+                            <button class="activo">Efectivo</button>
+                            <button>Tarjeta</button>
+                            <button>Transferencia</button>
+                        </div>
+                        <h3 style="margin-top: 15px;">TIPO DE ENTREGA</h3>
+                        <div class="botones-opcion">
+                            <button class="activo">Delivery</button>
+                            <button>Retiro local</button>
+                        </div>
+                        <p class="nota-chica">Los precios son en pesos argentinos y pueden variar. Consultar disponibilidad de productos.</p>
+                    </div>
+                </div>
+            </main>
+        </div>
+
+
+
+        <div id="vista-datos" class="vista">
+            <div class="top-barra-datos">
+                <div style="display: flex; gap: 10px;">
+                    <a href="#vista-pedido" class="btn-volver">&#8592; Seguir comprando</a>
+                    <a href="#vista-inicio" class="btn-volver">&#127968; Inicio</a>
+                </div>
+                <div class="titulo-central-datos">
+                    <h2>COMPLETAR DATOS</h2>
+                    <p>1. Tu pedido / 2. Completar datos</p>
+                </div>
+                <div class="logo-chico"><a href="#vista-inicio"><img src="./imagenes/imagenlogo.png" alt="Logo"></a></div>
+            </div>
+
+            <main class="cuerpo-datos">
+                <div class="formulario-datos">
+                    <h3>¿DÓNDE TE LO LLEVAMOS?</h3>
+                    <div class="tipo-entrega-tags">
+                        <span class="tag-activo">&#10003; Delivery</span>
+                        <span class="tag-inactivo">Retiro local</span>
+                    </div>
+                    
+                    <div class="grid-inputs">
+                        <div class="input-grupo">
+                            <label>Nombre y apellido</label>
+                            <input type="text" value="Matci Garcia 67">
+                        </div>
+                        <div class="input-grupo">
+                            <label>Teléfono</label>
+                            <input type="text" value="351 530 1551 6767">
+                        </div>
+                        <div class="input-grupo">
+                            <label>Ubicación - barrio / ciudad</label>
+                            <input type="text" value="Monte Cristo, citiboy">
+                        </div>
+                        <div class="input-grupo">
+                            <label>Dirección - calle y número</label>
+                            <input type="text" value="Claudio Digon 465,">
+                        </div>
+                        <div class="input-grupo">
+                            <label>Piso / departamento</label>
+                            <input type="text" value="2.° B">
+                        </div>
+                        <div class="input-grupo ancho-total">
+                            <label>Referencia para la entrega</label>
+                            <input type="text" value="Timbre B - entrada por la avenida">
+                        </div>
+                    </div>
+
+                    <h3 style="margin-top: 20px;">DATOS DE PAGO</h3>
+                    <div class="tipo-entrega-tags">
+                        <span class="tag-activo">&#10003; Efectivo</span>
+                        <span class="tag-inactivo">Tarjeta</span>
+                        <span class="tag-inactivo">Transferencia</span>
+                    </div>
+                    <p class="nota-chica" style="margin-top: 5px;">&#10003; Pago al recibir. Abono con el importe exacto.</p>
+                </div>
+
+                <div class="resumen-lateral-derecho">
+                    <div class="caja-resumen-chica">
+                        <h3>TU PEDIDO <span class="moneda-txt">Pesos argentinos</span></h3>
+                        <div class="item-resumen-mini"><span>1× Clásica</span> <span>$4.500</span></div>
+                        <div class="item-resumen-mini"><span>2× Doble Queso</span> <span>$13.000</span></div>
+                        <div class="item-resumen-mini"><span>1× Especial del Barrio</span> <span>$7.000</span></div>
+                        <div class="item-resumen-mini"><span>2× Gaseosa</span> <span>$4.600</span></div>
+                        <div class="item-resumen-mini"><span>2× + Extra cheddar</span> <span>$1.000</span></div>
+                        
+                        <div class="subtotal-mini">
+                            <div><span>Subtotal</span> <span>$30.100</span></div>
+                            <div><span>Envío</span> <span>A calcular</span></div>
+                        </div>
+                        <div class="total-mini-box">
+                            <span>TOTAL SIN ENVÍO</span>
+                            <span>$30.100</span>
+                        </div>
+                        <button class="btn-completar-final">COMPLETAR PEDIDO</button>
+                        <p class="aviso-final">Te confirmaremos el costo de envío y el total final antes de cobrarte.</p>
+                    </div>
+                </div>
+            </main>
+        </div>
+
+        <div id="modal-ubicacion" class="modal-overlay">
+            <a href="#" class="modal-cerrar-fondo"></a>
+            <div class="modal-contenido">
+                <h3>NUESTRA UBICACIÓN</h3>
+                <p>📍 Av. General Paz 250, Córdoba Capital</p>
+                <p class="sub-texto">Horarios: Martes a Domingos de 20:00 a 00:00 hs.</p>
+                <a href="#" class="btn-cerrar-modal">Cerrar</a>
+            </div>
+        </div>
+
+        <!-- FOOTER GENERAL -->
+        <footer>
+            <p>&copy; 2026 sabores de barrio - comida artesanal</p>
+            <p>Consulta en: <span>pedidos@saboresdelbarrio.com</span></p>
+        </footer>
+    </div>
+</body>
+</html>
